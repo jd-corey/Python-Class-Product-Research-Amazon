@@ -1,4 +1,4 @@
-Python class "Amazon" for scientific and research purposes
+# Python class "Amazon" for scientific and research purposes
 
 - Purpose: Provide simple functionality for researching data about products on Amazon.de.
 - Webpages containing lists of products ("overviews") are used as sources for research.
