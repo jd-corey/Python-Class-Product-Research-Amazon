@@ -2,9 +2,9 @@
 # Python class "Amazon" for scientific and research purposes
 #
 # Purpose: Provide simple functionality for researching data about products on Amazon.de.
-# Webpages containing lists of products ("overviews") are used as sources for research.
-# The class provides a some methods for extracting relevant product data from HTML files.
-# It uses BeautifulSoup and stores the data extracted in a CSV file on a local storage.
+# Webpages containing lists of products ("overviews") and stored locally are used as sources.
+# The class provides some methods for extracting relevant product data from local HTML files.
+# It uses BeautifulSoup and stores the data extracted in a CSV file on a local storage, too.
 #
 # Input: Assumption about data acquisition
 # - Each webpage to be analyzed is stored locally in a file referred to as "source file"
