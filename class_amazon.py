@@ -172,7 +172,7 @@ class Amazon:
                     'acquisition_time', 'acquisition_hour', 'acquisition_minutes',
                     'acquisition_seconds', 'source_filename']
            
-            with open('output.csv', 'w') as f:
+            with open('output.csv', 'w', encoding="utf-8") as f:
                 f.write(';'.join(columns) + '\n')
                 for row in self.data_extracted:
                     # print(row)
